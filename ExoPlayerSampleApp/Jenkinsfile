@@ -17,7 +17,7 @@ pipeline {
     
             steps {
                 
-                    sh './gradlew clean assembleDevDebug'
+                    sh 'cd ExoPlayerSampleApp && ./gradlew clean assembleDevDebug'
              
             }
             post {
